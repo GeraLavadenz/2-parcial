@@ -1,16 +1,17 @@
 import React from "react";
 import "./AgendaTopic.css";
+import { imagen } from "../assets/Vector.png";
 
-const AgendaTopic = () => {
+const AgendaTopic = ({ number, topic, code }) => {
   return (
     <section>
       <div>
-        <p></p>
+        <p>{number}</p>
       </div>
-      <p></p>
+      <p>{topic}</p>
       <div>
-        <p></p>
-        <img src="" alt="" />
+        <p>{code}</p>
+        <img src={imagen} alt="" />
       </div>
     </section>
   );

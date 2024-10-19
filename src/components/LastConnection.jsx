@@ -1,10 +1,13 @@
-import React from 'react'
-import "./LastConnection.css"
+import React from "react";
+import "./LastConnection.css";
 
-const LastConnection = () => {
+const LastConnection = (fecha) => {
   return (
-    <div>LastConnection</div>
-  )
-}
+    <div>
+      <span>Last Updated</span>
+      <span>{fecha}</span>
+    </div>
+  );
+};
 
-export default LastConnection
+export default LastConnection;
