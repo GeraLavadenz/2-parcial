@@ -1,10 +1,19 @@
-import React from 'react'
-import "./AgendaTopic.css"
+import React from "react";
+import "./AgendaTopic.css";
 
 const AgendaTopic = () => {
   return (
-    <div>AgendaTopic</div>
-  )
-}
+    <section>
+      <div>
+        <p></p>
+      </div>
+      <p></p>
+      <div>
+        <p></p>
+        <img src="" alt="" />
+      </div>
+    </section>
+  );
+};
 
-export default AgendaTopic
+export default AgendaTopic;
